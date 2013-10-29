@@ -1,0 +1,45 @@
+
+TESTTOP=LAG_test_random
+MOD=$1 
+
+rm -f -r simulator/*
+
+# ------------------------------------------------
+# Look for .f file (with or without .f extension)
+# ------------------------------------------------
+if [ "$MOD" = "--help" ]; then
+  echo ""
+  echo "Usage: vt simfiles.f"
+  echo ""
+  echo "Specify a file containing a list of your SystemVerilog design files and a testbench"
+  echo ""
+  exit 1
+fi
+
+if [ "$MOD" = "" ]; then
+  echo "Error: You need to specify a .f file"
+  exit 1
+fi
+
+if [ -f $MOD.f ]; then
+  MOD=$MOD.f
+else
+  if [ -f $MOD ]; then
+    MOD=$MOD
+  else 
+    MOD=${MOD%.*}
+    echo "File '$MOD.f' does not exist"
+    exit 1
+  fi
+fi
+
+echo "** Ready to go....."
+
+
+vlib simulator/work
+vlog -sv -mfcu -work simulator/work +nowarnSVCHK +nowarnTFMPC +incdir+lib -f $MOD
+
+cd simulator
+vopt $TESTTOP -o opt +acc -opt=-merge
+vsim opt -c +nowarnTFMPC -do 'run -all; quit -f'
+cd ..

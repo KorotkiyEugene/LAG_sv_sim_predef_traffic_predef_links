@@ -1,0 +1,1333 @@
+** Ready to go.....
+Model Technology ModelSim SE vlog 6.5 Compiler 2009.01 Jan 22 2009
+-- Compiling package parameters_v_unit
+-- Compiling module LAG_data_reg
+-- Compiling module LAG_ctrl_reg
+-- Compiling module LAG_pipelined_channel
+-- Compiling module LAG_mux_oh_select
+-- Compiling module LAG_crossbar_oh_select
+-- Compiling module LAG_fifo_v
+-- Compiling module fifo_flags
+-- Compiling module fifo_buffer
+-- Compiling module comb_matrix_arb_next_state
+-- Compiling module matrix_arb
+-- Compiling module LAG_tree_arbiter
+-- Compiling module LAG_pl_buffers
+-- Compiling module LAG_pl_input_port
+-- Compiling module LAG_pl_free_pool
+-- Compiling module LAG_pl_fc_out
+-- Compiling module LAG_route
+-- Compiling module LAG_pl_unrestricted_allocator
+-- Compiling module LAG_pl_allocator
+-- Compiling module unary_select_pair
+-- Compiling module LAG_pl_status
+-- Compiling module LAG_router
+-- Compiling module LAG_pl_router
+-- Compiling module LAG_mesh_network
+-- Compiling module LAG_random_traffic_source
+-- Compiling module LAG_traffic_sink
+-- Compiling module LAG_test_random
+
+Top level modules:
+	LAG_ctrl_reg
+	LAG_tree_arbiter
+	LAG_pl_allocator
+	LAG_test_random
+Model Technology ModelSim SE vopt 6.5 Compiler 2009.01 Jan 22 2009
+
+Top level modules:
+	LAG_test_random
+
+Analyzing design...
+-- Loading module LAG_test_random
+-- Loading module LAG_mesh_network
+-- Loading module LAG_router
+-- Loading module LAG_pl_router
+-- Loading module LAG_pl_status
+-- Loading module LAG_pl_unrestricted_allocator
+-- Loading module LAG_crossbar_oh_select
+-- Loading module LAG_pipelined_channel
+-- Loading module LAG_random_traffic_source
+-- Loading module LAG_fifo_v
+-- Loading module fifo_buffer
+-- Loading module fifo_flags
+-- Loading module LAG_route
+-- Loading module LAG_traffic_sink
+-- Loading module unary_select_pair
+-- Loading module matrix_arb
+-- Loading module comb_matrix_arb_next_state
+-- Loading module LAG_mux_oh_select
+-- Loading module LAG_pl_fc_out
+-- Loading module LAG_pl_free_pool
+-- Loading module LAG_pl_input_port
+-- Loading module LAG_pl_buffers
+Optimizing 41 design-units (inlining 0 instances):
+-- Optimizing package parameters_v_unit(fast)
+-- Optimizing module unary_select_pair(fast)
+-- Optimizing module LAG_pl_status(fast)
+-- Optimizing module comb_matrix_arb_next_state(fast)
+-- Optimizing module matrix_arb(fast)
+-- Optimizing module LAG_pl_unrestricted_allocator(fast)
+-- Optimizing module LAG_mux_oh_select(fast)
+-- Optimizing module LAG_crossbar_oh_select(fast)
+-- Optimizing module LAG_pl_fc_out(fast)
+-- Optimizing module LAG_pl_free_pool(fast)
+-- Optimizing module fifo_buffer(fast)
+-- Optimizing module fifo_flags(fast)
+-- Optimizing module LAG_fifo_v(fast)
+-- Optimizing module LAG_pl_buffers(fast)
+-- Optimizing module LAG_pl_input_port(fast)
+-- Optimizing module LAG_route(fast)
+-- Optimizing module LAG_pl_router(fast)
+-- Optimizing module LAG_router(fast)
+-- Optimizing module LAG_pipelined_channel(fast)
+-- Optimizing module LAG_mesh_network(fast)
+-- Optimizing module fifo_buffer(fast__1)
+-- Optimizing module fifo_flags(fast__1)
+-- Optimizing module LAG_fifo_v(fast__1)
+-- Optimizing module LAG_random_traffic_source(fast)
+-- Optimizing module LAG_random_traffic_source(fast__1)
+-- Optimizing module LAG_random_traffic_source(fast__2)
+-- Optimizing module LAG_random_traffic_source(fast__3)
+-- Optimizing module LAG_random_traffic_source(fast__4)
+-- Optimizing module LAG_random_traffic_source(fast__5)
+-- Optimizing module LAG_random_traffic_source(fast__6)
+-- Optimizing module LAG_random_traffic_source(fast__7)
+-- Optimizing module LAG_random_traffic_source(fast__8)
+-- Optimizing module LAG_random_traffic_source(fast__9)
+-- Optimizing module LAG_random_traffic_source(fast__10)
+-- Optimizing module LAG_random_traffic_source(fast__11)
+-- Optimizing module LAG_random_traffic_source(fast__12)
+-- Optimizing module LAG_random_traffic_source(fast__13)
+-- Optimizing module LAG_random_traffic_source(fast__14)
+-- Optimizing module LAG_random_traffic_source(fast__15)
+-- Optimizing module LAG_traffic_sink(fast)
+-- Optimizing module LAG_test_random(fast)
+Optimized design name is opt
+Reading D:/modeltech_6.5/tcl/vsim/pref.tcl 
+
+# 6.5
+
+# vsim +nowarnTFMPC -do {run -all; quit -f} -c opt 
+# //  ModelSim SE 6.5 Jan 22 2009 
+# //
+# //  Copyright 1991-2009 Mentor Graphics Corporation
+# //              All Rights Reserved.
+# //
+# //  THIS WORK CONTAINS TRADE SECRET AND 
+# //  PROPRIETARY INFORMATION WHICH IS THE PROPERTY
+# //  OF MENTOR GRAPHICS CORPORATION OR ITS LICENSORS
+# //  AND IS SUBJECT TO LICENSE TERMS.
+# //
+# Loading sv_std.std
+# Loading work.parameters_v_unit(fast)
+# Loading work.LAG_test_random(fast)
+# Loading work.LAG_mesh_network(fast)
+# Loading work.LAG_pipelined_channel(fast)
+# Loading work.LAG_router(fast)
+# Loading work.LAG_pl_router(fast)
+# Loading work.LAG_pl_fc_out(fast)
+# Loading work.LAG_pl_free_pool(fast)
+# Loading work.LAG_pl_input_port(fast)
+# Loading work.LAG_pl_buffers(fast)
+# Loading work.LAG_pl_status(fast)
+# Loading work.LAG_pl_unrestricted_allocator(fast)
+# Loading work.LAG_crossbar_oh_select(fast)
+# Loading work.LAG_random_traffic_source(fast)
+# Loading work.LAG_fifo_v(fast__1)
+# Loading work.fifo_buffer(fast__1)
+# Loading work.fifo_flags(fast__1)
+# Loading work.LAG_route(fast)
+# Loading work.LAG_random_traffic_source(fast__1)
+# Loading work.LAG_random_traffic_source(fast__2)
+# Loading work.LAG_random_traffic_source(fast__3)
+# Loading work.LAG_random_traffic_source(fast__4)
+# Loading work.LAG_random_traffic_source(fast__5)
+# Loading work.LAG_random_traffic_source(fast__6)
+# Loading work.LAG_random_traffic_source(fast__7)
+# Loading work.LAG_random_traffic_source(fast__8)
+# Loading work.LAG_random_traffic_source(fast__9)
+# Loading work.LAG_random_traffic_source(fast__10)
+# Loading work.LAG_random_traffic_source(fast__11)
+# Loading work.LAG_random_traffic_source(fast__12)
+# Loading work.LAG_random_traffic_source(fast__13)
+# Loading work.LAG_random_traffic_source(fast__14)
+# Loading work.LAG_random_traffic_source(fast__15)
+# Loading work.LAG_traffic_sink(fast)
+# Loading work.LAG_fifo_v(fast)
+# Loading work.fifo_buffer(fast)
+# Loading work.fifo_flags(fast)
+# Loading work.unary_select_pair(fast)
+# Loading work.matrix_arb(fast)
+# Loading work.comb_matrix_arb_next_state(fast)
+# Loading work.LAG_mux_oh_select(fast)
+# run -all 
+# ******************************************
+# * NoC with LAG - Predefined Traffic Test *
+# ******************************************
+# -- Reset Complete
+# -- Entering warmup phase (100 packets per node)
+# 1: 0.00% complete
+# 2: 0.00% complete
+# 3: 0.00% complete
+# 4: 0.00% complete
+# 5: 0.00% complete
+# 6: 0.00% complete
+# 7: 0.00% complete
+# 8: 0.00% complete
+# 9: 0.00% complete
+# 10: 0.00% complete
+# 11: 0.00% complete
+# 12: 0.00% complete
+# 13: 0.00% complete
+# 14: 0.00% complete
+# 15: 0.00% complete
+# 16: 0.00% complete
+# 17: 0.00% complete
+# 18: 0.00% complete
+# 19: 0.00% complete
+# 20: 0.00% complete
+# 21: 0.00% complete
+# 22: 0.00% complete
+# 23: 0.00% complete
+# 24: 0.00% complete
+# 25: 0.00% complete
+# 26: 0.00% complete
+# 27: 0.00% complete
+# 28: 0.00% complete
+# 29: 0.00% complete
+# 30: 0.00% complete
+# 31: 0.00% complete
+# 32: 0.00% complete
+# 33: 0.00% complete
+# 34: 0.00% complete
+# 35: 0.00% complete
+# 36: 0.00% complete
+# 37: 0.00% complete
+# 38: 0.00% complete
+# 39: 0.00% complete
+# 40: 0.00% complete
+# 41: 0.00% complete
+# 42: 0.00% complete
+# 43: 0.00% complete
+# 44: 0.00% complete
+# 45: 0.00% complete
+# 46: 0.00% complete
+# 47: 0.00% complete
+# 48: 0.00% complete
+# 49: 0.00% complete
+# 50: 0.00% complete
+# 51: 0.00% complete
+# 52: 0.00% complete
+# 53: 0.00% complete
+# 54: 0.00% complete
+# 55: 0.00% complete
+# 56: 0.00% complete
+# 57: 0.00% complete
+# 58: 0.00% complete
+# 59: 0.00% complete
+# 60: 0.00% complete
+# 61: 0.00% complete
+# 62: 0.00% complete
+# 63: 0.00% complete
+# 64: 0.00% complete
+# 65: 0.00% complete
+# 66: 0.00% complete
+# 67: 0.00% complete
+# 68: 0.00% complete
+# 69: 0.00% complete
+# 70: 0.00% complete
+# 71: 0.00% complete
+# 72: 0.00% complete
+# 73: 0.00% complete
+# 74: 0.00% complete
+# 75: 0.00% complete
+# 76: 0.00% complete
+# 77: 0.00% complete
+# 78: 0.00% complete
+# 79: 0.00% complete
+# 80: 0.00% complete
+# 81: 0.00% complete
+# 82: 0.00% complete
+# 83: 0.00% complete
+# 84: 0.00% complete
+# 85: 0.00% complete
+# 86: 0.00% complete
+# 87: 0.00% complete
+# 88: 0.00% complete
+# 89: 0.00% complete
+# 90: 0.00% complete
+# 91: 0.00% complete
+# 92: 0.00% complete
+# 93: 0.00% complete
+# 94: 0.00% complete
+# 95: 0.00% complete
+# 96: 0.00% complete
+# 97: 0.00% complete
+# 98: 0.00% complete
+# 99: 0.00% complete
+# 100: 0.00% complete
+# 101: 0.00% complete
+# 102: 0.00% complete
+# 103: 0.00% complete
+# 104: 0.00% complete
+# 105: 0.00% complete
+# 106: 0.00% complete
+# 107: 0.00% complete
+# 108: 0.00% complete
+# 109: 0.00% complete
+# 110: 0.00% complete
+# 111: 0.00% complete
+# 112: 0.00% complete
+# 113: 0.00% complete
+# 114: 0.00% complete
+# 115: 0.00% complete
+# 116: 0.00% complete
+# 117: 0.00% complete
+# 118: 0.00% complete
+# 119: 0.00% complete
+# 120: 0.00% complete
+# 121: 0.00% complete
+# 122: 0.00% complete
+# 123: 0.00% complete
+# 124: 0.00% complete
+# 125: 0.00% complete
+# 126: 0.00% complete
+# 127: 0.00% complete
+# 128: 0.00% complete
+# 129: 0.00% complete
+# 130: 0.00% complete
+# 131: 0.00% complete
+# 132: 0.00% complete
+# 133: 0.00% complete
+# 134: 0.00% complete
+# 135: 0.00% complete
+# 136: 0.00% complete
+# 137: 0.00% complete
+# 138: 0.00% complete
+# 139: 0.00% complete
+# 140: 0.00% complete
+# 141: 0.00% complete
+# 142: 0.00% complete
+# 143: 0.00% complete
+# 144: 0.00% complete
+# 145: 0.00% complete
+# 146: 0.00% complete
+# 147: 0.00% complete
+# 148: 0.00% complete
+# 149: 0.00% complete
+# 150: 0.00% complete
+# 151: 0.00% complete
+# 152: 0.00% complete
+# 153: 0.00% complete
+# 154: 0.00% complete
+# 155: 0.00% complete
+# 156: 0.00% complete
+# 157: 0.00% complete
+# 158: 0.00% complete
+# 159: 0.00% complete
+# 160: 0.00% complete
+# 161: 0.00% complete
+# 162: 0.00% complete
+# 163: 0.00% complete
+# 164: 0.00% complete
+# 165: 0.00% complete
+# 166: 0.00% complete
+# 167: 0.00% complete
+# 168: 0.00% complete
+# 169: 0.00% complete
+# 170: 0.00% complete
+# 171: 0.00% complete
+# 172: 0.00% complete
+# 173: 0.00% complete
+# 174: 0.00% complete
+# 175: 0.00% complete
+# 176: 0.00% complete
+# 177: 0.00% complete
+# 178: 0.00% complete
+# 179: 0.00% complete
+# 180: 0.00% complete
+# 181: 0.00% complete
+# 182: 0.00% complete
+# 183: 0.00% complete
+# 184: 0.00% complete
+# 185: 0.00% complete
+# 186: 0.00% complete
+# 187: 0.00% complete
+# 188: 0.00% complete
+# 189: 0.00% complete
+# 190: 0.00% complete
+# 191: 0.00% complete
+# 192: 0.00% complete
+# 193: 0.00% complete
+# 194: 0.00% complete
+# 195: 0.00% complete
+# 196: 0.00% complete
+# 197: 0.00% complete
+# 198: 0.00% complete
+# 199: 0.00% complete
+# 200: 0.00% complete
+# 201: 0.00% complete
+# 202: 0.00% complete
+# 203: 0.00% complete
+# 204: 0.00% complete
+# 205: 0.00% complete
+# 206: 0.00% complete
+# 207: 0.00% complete
+# 208: 0.00% complete
+# 209: 0.00% complete
+# 210: 0.00% complete
+# 211: 0.00% complete
+# 212: 0.00% complete
+# 213: 0.00% complete
+# 214: 0.00% complete
+# 215: 0.00% complete
+# 216: 0.00% complete
+# 217: 0.00% complete
+# 218: 0.00% complete
+# 219: 0.00% complete
+# 220: 0.00% complete
+# 221: 0.00% complete
+# 222: 0.00% complete
+# 223: 0.00% complete
+# 224: 0.00% complete
+# 225: 0.00% complete
+# 226: 0.00% complete
+# 227: 0.00% complete
+# 228: 0.00% complete
+# 229: 0.00% complete
+# 230: 0.00% complete
+# 231: 0.00% complete
+# 232: 0.00% complete
+# 233: 0.00% complete
+# 234: 0.00% complete
+# 235: 0.00% complete
+# 236: 0.00% complete
+# 237: 0.00% complete
+# 238: 0.00% complete
+# 239: 0.00% complete
+# 240: 0.00% complete
+# 241: 0.00% complete
+# 242: 0.00% complete
+# 243: 0.00% complete
+# 244: 0.00% complete
+# 245: 0.00% complete
+# 246: 0.00% complete
+# 247: 0.00% complete
+# 248: 0.00% complete
+# 249: 0.00% complete
+# 250: 0.00% complete
+# 251: 0.00% complete
+# 252: 0.00% complete
+# 253: 0.00% complete
+# 254: 0.00% complete
+# 255: 0.00% complete
+# 256: 0.00% complete
+# 257: 0.00% complete
+# 258: 0.00% complete
+# 259: 0.00% complete
+# 260: 0.00% complete
+# 261: 0.00% complete
+# 262: 0.00% complete
+# 263: 0.00% complete
+# 264: 0.00% complete
+# 265: 0.00% complete
+# 266: 0.00% complete
+# 267: 0.00% complete
+# 268: 0.00% complete
+# 269: 0.00% complete
+# 270: 0.00% complete
+# 271: 0.00% complete
+# 272: 0.00% complete
+# 273: 0.00% complete
+# 274: 0.00% complete
+# 275: 0.00% complete
+# 276: 0.00% complete
+# 277: 0.00% complete
+# 278: 0.00% complete
+# 279: 0.00% complete
+# 280: 0.00% complete
+# 281: 0.00% complete
+# 282: 0.00% complete
+# 283: 0.00% complete
+# 284: 0.00% complete
+# 285: 0.00% complete
+# 286: 0.00% complete
+# 287: 0.00% complete
+# 288: 0.00% complete
+# 289: 0.00% complete
+# 290: 0.00% complete
+# 291: 0.00% complete
+# 292: 0.00% complete
+# 293: 0.00% complete
+# 294: 0.00% complete
+# 295: 0.00% complete
+# 296: 0.00% complete
+# 297: 0.00% complete
+# 298: 0.00% complete
+# 299: 0.00% complete
+# 300: 0.00% complete
+# 301: 0.00% complete
+# 302: 0.00% complete
+# 303: 0.00% complete
+# 304: 0.00% complete
+# 305: 0.00% complete
+# 306: 0.00% complete
+# 307: 0.00% complete
+# 308: 0.00% complete
+# 309: 0.00% complete
+# 310: 0.00% complete
+# 311: 0.00% complete
+# 312: 0.00% complete
+# 313: 0.00% complete
+# 314: 0.00% complete
+# 315: 0.00% complete
+# 316: 0.00% complete
+# 317: 0.00% complete
+# 318: 0.00% complete
+# 319: 0.00% complete
+# 320: 0.00% complete
+# 321: 0.00% complete
+# 322: 0.00% complete
+# 323: 0.00% complete
+# 324: 0.00% complete
+# 325: 0.00% complete
+# 326: 0.00% complete
+# 327: 0.00% complete
+# 328: 0.00% complete
+# 329: 0.00% complete
+# 330: 0.00% complete
+# 331: 0.00% complete
+# 332: 0.00% complete
+# 333: 0.00% complete
+# 334: 0.00% complete
+# 335: 0.00% complete
+# 336: 0.00% complete
+# 337: 0.00% complete
+# 338: 0.00% complete
+# 339: 0.00% complete
+# 340: 0.00% complete
+# 341: 0.00% complete
+# 342: 0.00% complete
+# 343: 0.00% complete
+# 344: 0.00% complete
+# 345: 0.00% complete
+# 346: 0.00% complete
+# 347: 0.00% complete
+# 348: 0.00% complete
+# 349: 0.00% complete
+# 350: 0.00% complete
+# 351: 0.00% complete
+# 352: 0.00% complete
+# 353: 0.00% complete
+# 354: 0.00% complete
+# 355: 0.00% complete
+# 356: 0.00% complete
+# 357: 0.00% complete
+# 358: 0.00% complete
+# 359: 0.00% complete
+# 360: 0.00% complete
+# 361: 0.00% complete
+# 362: 0.00% complete
+# 363: 0.00% complete
+# 364: 0.00% complete
+# 365: 0.00% complete
+# 366: 0.00% complete
+# 367: 0.00% complete
+# 368: 0.00% complete
+# 369: 0.00% complete
+# 370: 0.00% complete
+# 371: 0.00% complete
+# 372: 0.00% complete
+# 373: 0.00% complete
+# 374: 0.00% complete
+# 375: 0.00% complete
+# 376: 0.00% complete
+# 377: 0.00% complete
+# 378: 0.00% complete
+# 379: 0.00% complete
+# 380: 0.00% complete
+# 381: 0.00% complete
+# 382: 0.00% complete
+# 383: 0.00% complete
+# 384: 0.00% complete
+# 385: 0.00% complete
+# 386: 0.00% complete
+# 387: 0.00% complete
+# 388: 0.00% complete
+# 389: 0.00% complete
+# 390: 0.00% complete
+# 391: 0.00% complete
+# 392: 0.00% complete
+# 393: 0.00% complete
+# 394: 0.00% complete
+# 395: 0.00% complete
+# 396: 0.00% complete
+# 397: 0.00% complete
+# 398: 0.00% complete
+# 399: 0.00% complete
+# 400: 0.00% complete
+# 401: 0.00% complete
+# 402: 0.00% complete
+# 403: 0.00% complete
+# 404: 0.00% complete
+# 405: 0.00% complete
+# 406: 0.00% complete
+# 407: 0.00% complete
+# 408: 0.00% complete
+# 409: 0.00% complete
+# 410: 0.00% complete
+# 411: 0.00% complete
+# 412: 0.00% complete
+# 413: 0.00% complete
+# 414: 0.00% complete
+# 415: 0.00% complete
+# 416: 0.00% complete
+# 417: 0.00% complete
+# 418: 0.00% complete
+# 419: 0.00% complete
+# 420: 0.00% complete
+# 421: 0.00% complete
+# 422: 0.00% complete
+# 423: 0.00% complete
+# 424: 0.00% complete
+# 425: 0.00% complete
+# 426: 0.00% complete
+# 427: 0.00% complete
+# 428: 0.00% complete
+# 429: 0.00% complete
+# 430: 0.00% complete
+# 431: 0.00% complete
+# 432: 0.00% complete
+# 433: 0.00% complete
+# 434: 0.00% complete
+# 435: 0.00% complete
+# 436: 0.00% complete
+# 437: 0.00% complete
+# 438: 0.00% complete
+# 439: 0.00% complete
+# 440: 0.00% complete
+# 441: 0.00% complete
+# 442: 0.00% complete
+# 443: 0.00% complete
+# 444: 0.00% complete
+# 445: 0.00% complete
+# 446: 0.00% complete
+# 447: 0.00% complete
+# 448: 0.00% complete
+# 449: 0.00% complete
+# 450: 0.00% complete
+# 451: 0.00% complete
+# 452: 0.00% complete
+# 453: 0.00% complete
+# 454: 0.00% complete
+# 455: 0.00% complete
+# 456: 0.00% complete
+# 457: 0.00% complete
+# 458: 0.00% complete
+# 459: 0.00% complete
+# 460: 0.00% complete
+# 461: 0.00% complete
+# 462: 0.00% complete
+# 463: 0.00% complete
+# 464: 0.00% complete
+# 465: 0.00% complete
+# 466: 0.00% complete
+# 467: 0.00% complete
+# 468: 0.00% complete
+# 469: 0.00% complete
+# 470: 0.00% complete
+# 471: 0.00% complete
+# 472: 0.00% complete
+# 473: 0.00% complete
+# 474: 0.00% complete
+# 475: 0.00% complete
+# 476: 0.00% complete
+# 477: 0.00% complete
+# 478: 0.00% complete
+# 479: 0.00% complete
+# 480: 0.00% complete
+# 481: 0.00% complete
+# 482: 0.00% complete
+# 483: 0.00% complete
+# 484: 0.00% complete
+# 485: 0.00% complete
+# 486: 0.00% complete
+# 487: 0.00% complete
+# 488: 0.00% complete
+# 489: 0.00% complete
+# 490: 0.00% complete
+# 491: 0.00% complete
+# 492: 0.00% complete
+# 493: 0.00% complete
+# 494: 0.00% complete
+# 495: 0.00% complete
+# 496: 0.00% complete
+# 497: 0.00% complete
+# 498: 0.00% complete
+# 499: 0.00% complete
+# 500: 0.00% complete
+# 501: 0.00% complete
+# 502: 0.00% complete
+# 503: 0.00% complete
+# 504: 0.00% complete
+# 505: 0.00% complete
+# 506: 0.00% complete
+# 507: 0.00% complete
+# 508: 0.00% complete
+# 509: 0.00% complete
+# 510: 0.00% complete
+# 511: 0.00% complete
+# 512: 0.00% complete
+# 513: 0.00% complete
+# 514: 0.00% complete
+# 515: 0.00% complete
+# 516: 0.00% complete
+# 517: 0.00% complete
+# 518: 0.00% complete
+# 519: 0.00% complete
+# 520: 0.00% complete
+# 521: 0.00% complete
+# 522: 0.00% complete
+# 523: 0.00% complete
+# 524: 0.00% complete
+# 525: 0.00% complete
+# 526: 0.00% complete
+# 527: 0.00% complete
+# 528: 0.00% complete
+# 529: 0.00% complete
+# 530: 0.00% complete
+# 531: 0.00% complete
+# 532: 0.00% complete
+# 533: 0.00% complete
+# 534: 0.00% complete
+# 535: 0.00% complete
+# 536: 0.00% complete
+# 537: 0.00% complete
+# 538: 0.00% complete
+# 539: 0.00% complete
+# 540: 0.00% complete
+# 541: 0.00% complete
+# 542: 0.00% complete
+# 543: 0.00% complete
+# 544: 0.00% complete
+# 545: 0.00% complete
+# 546: 0.00% complete
+# 547: 0.00% complete
+# 548: 0.00% complete
+# 549: 0.00% complete
+# 550: 0.00% complete
+# 551: 0.00% complete
+# 552: 0.00% complete
+# 553: 0.00% complete
+# 554: 0.00% complete
+# 555: 0.00% complete
+# 556: 0.00% complete
+# 557: 0.00% complete
+# 558: 0.00% complete
+# 559: 0.00% complete
+# 560: 0.00% complete
+# 561: 0.00% complete
+# 562: 0.00% complete
+# 563: 0.00% complete
+# 564: 0.00% complete
+# 565: 0.00% complete
+# 566: 0.00% complete
+# 567: 0.00% complete
+# 568: 0.00% complete
+# 569: 0.00% complete
+# 570: 0.00% complete
+# 571: 0.00% complete
+# 572: 0.00% complete
+# 573: 0.00% complete
+# 574: 0.00% complete
+# 575: 0.00% complete
+# 576: 0.00% complete
+# 577: 0.00% complete
+# 578: 0.00% complete
+# 579: 0.00% complete
+# 580: 0.00% complete
+# 581: 0.00% complete
+# 582: 0.00% complete
+# 583: 0.00% complete
+# 584: 0.00% complete
+# 585: 0.00% complete
+# 586: 0.00% complete
+# 587: 0.00% complete
+# 588: 0.00% complete
+# 589: 0.00% complete
+# 590: 0.00% complete
+# 591: 0.00% complete
+# 592: 0.00% complete
+# 593: 0.00% complete
+# 594: 0.00% complete
+# 595: 0.00% complete
+# 596: 0.00% complete
+# 597: 0.00% complete
+# 598: 0.00% complete
+# 599: 0.00% complete
+# 600: 0.00% complete
+# 601: 0.00% complete
+# 602: 0.00% complete
+# 603: 0.00% complete
+# 604: 0.00% complete
+# 605: 0.00% complete
+# 606: 0.00% complete
+# 607: 0.00% complete
+# 608: 0.00% complete
+# 609: 0.00% complete
+# 610: 0.00% complete
+# 611: 0.00% complete
+# 612: 0.00% complete
+# 613: 0.00% complete
+# 614: 0.00% complete
+# 615: 0.00% complete
+# 616: 0.00% complete
+# 617: 0.00% complete
+# 618: 0.00% complete
+# 619: 0.00% complete
+# 620: 0.00% complete
+# 621: 0.00% complete
+# 622: 0.00% complete
+# 623: 0.00% complete
+# 624: 0.00% complete
+# 625: 0.00% complete
+# 626: 0.00% complete
+# 627: 0.00% complete
+# 628: 0.00% complete
+# 629: 0.00% complete
+# 630: 0.00% complete
+# 631: 0.00% complete
+# 632: 0.00% complete
+# 633: 0.00% complete
+# 634: 0.00% complete
+# 635: 0.00% complete
+# 636: 0.00% complete
+# 637: 0.00% complete
+# 638: 0.00% complete
+# 639: 0.00% complete
+# 640: 0.00% complete
+# 641: 0.00% complete
+# 642: 0.00% complete
+# 643: 0.00% complete
+# 644: 0.00% complete
+# 645: 0.00% complete
+# 646: 0.00% complete
+# 647: 0.00% complete
+# 648: 0.00% complete
+# 649: 0.00% complete
+# 650: 0.00% complete
+# 651: 0.00% complete
+# 652: 0.00% complete
+# 653: 0.00% complete
+# 654: 0.00% complete
+# 655: 0.00% complete
+# 656: 0.00% complete
+# 657: 0.00% complete
+# 658: 0.00% complete
+# 659: 0.00% complete
+# 660: 0.00% complete
+# 661: 0.00% complete
+# 662: 0.00% complete
+# 663: 0.00% complete
+# 664: 0.00% complete
+# 665: 0.00% complete
+# 666: 0.00% complete
+# 667: 0.00% complete
+# 668: 0.00% complete
+# 669: 0.00% complete
+# 670: 0.00% complete
+# 671: 0.00% complete
+# 672: 0.00% complete
+# 673: 0.00% complete
+# 674: 0.00% complete
+# 675: 0.00% complete
+# 676: 0.00% complete
+# 677: 0.00% complete
+# 678: 0.00% complete
+# 679: 0.00% complete
+# 680: 0.00% complete
+# 681: 0.00% complete
+# 682: 0.00% complete
+# 683: 0.00% complete
+# 684: 0.00% complete
+# 685: 0.00% complete
+# 686: 0.00% complete
+# 687: 0.00% complete
+# 688: 0.00% complete
+# 689: 0.00% complete
+# 690: 0.00% complete
+# 691: 0.00% complete
+# 692: 0.00% complete
+# 693: 0.00% complete
+# 694: 0.00% complete
+# 695: 0.00% complete
+# 696: 0.00% complete
+# 697: 0.00% complete
+# 698: 0.00% complete
+# 699: 0.00% complete
+# 700: 0.00% complete
+# 701: 0.00% complete
+# 702: 0.00% complete
+# 703: 0.00% complete
+# 704: 0.00% complete
+# 705: 0.00% complete
+# 706: 0.00% complete
+# 707: 0.00% complete
+# 708: 0.00% complete
+# 709: 0.00% complete
+# 710: 0.00% complete
+# 711: 0.00% complete
+# 712: 0.00% complete
+# 713: 0.00% complete
+# 714: 0.00% complete
+# 715: 0.00% complete
+# 716: 0.00% complete
+# 717: 0.00% complete
+# 718: 0.00% complete
+# 719: 0.00% complete
+# 720: 0.00% complete
+# 721: 0.00% complete
+# 722: 0.00% complete
+# 723: 0.00% complete
+# 724: 0.00% complete
+# 725: 0.00% complete
+# 726: 0.00% complete
+# 727: 0.00% complete
+# 728: 0.00% complete
+# 729: 0.00% complete
+# 730: 0.00% complete
+# 731: 0.00% complete
+# 732: 0.00% complete
+# 733: 0.00% complete
+# 734: 0.00% complete
+# 735: 0.00% complete
+# 736: 0.00% complete
+# 737: 0.00% complete
+# 738: 0.00% complete
+# 739: 0.00% complete
+# 740: 0.00% complete
+# 741: 0.00% complete
+# 742: 0.00% complete
+# 743: 0.00% complete
+# 744: 0.00% complete
+# 745: 0.00% complete
+# 746: 0.00% complete
+# 747: 0.00% complete
+# 748: 0.00% complete
+# 749: 0.00% complete
+# 750: 0.00% complete
+# 751: 0.00% complete
+# 752: 0.00% complete
+# 753: 0.00% complete
+# 754: 0.00% complete
+# 755: 0.00% complete
+# 756: 0.00% complete
+# 757: 0.00% complete
+# 758: 0.00% complete
+# 759: 0.00% complete
+# 760: 0.00% complete
+# 761: 0.00% complete
+# 762: 0.00% complete
+# 763: 0.00% complete
+# 764: 0.00% complete
+# 765: 0.00% complete
+# 766: 0.00% complete
+# 767: 0.00% complete
+# 768: 0.00% complete
+# 769: 0.00% complete
+# 770: 0.00% complete
+# 771: 0.00% complete
+# 772: 0.00% complete
+# 773: 0.00% complete
+# 774: 0.00% complete
+# 775: 0.00% complete
+# 776: 0.00% complete
+# 777: 0.00% complete
+# 778: 0.00% complete
+# 779: 0.00% complete
+# 780: 0.00% complete
+# 781: 0.00% complete
+# 782: 0.00% complete
+# 783: 0.00% complete
+# 784: 0.00% complete
+# 785: 0.00% complete
+# 786: 0.00% complete
+# 787: 0.00% complete
+# 788: 0.00% complete
+# 789: 0.00% complete
+# 790: 0.00% complete
+# 791: 0.00% complete
+# 792: 0.00% complete
+# 793: 0.00% complete
+# 794: 0.00% complete
+# 795: 0.00% complete
+# 796: 0.00% complete
+# 797: 0.00% complete
+# 798: 0.00% complete
+# 799: 0.00% complete
+# 800: 0.00% complete
+# 801: 0.00% complete
+# 802: 0.00% complete
+# 803: 0.00% complete
+# 804: 0.00% complete
+# 805: 0.00% complete
+# 806: 0.00% complete
+# 807: 0.00% complete
+# 808: 0.00% complete
+# 809: 0.00% complete
+# 810: 0.00% complete
+# 811: 0.00% complete
+# 812: 0.00% complete
+# 813: 0.00% complete
+# 814: 0.00% complete
+# 815: 0.00% complete
+# 816: 0.00% complete
+# 817: 0.00% complete
+# 818: 0.00% complete
+# 819: 0.00% complete
+# 820: 0.00% complete
+# 821: 0.00% complete
+# 822: 0.00% complete
+# 823: 0.00% complete
+# 824: 0.00% complete
+# 825: 0.00% complete
+# 826: 0.00% complete
+# 827: 0.00% complete
+# 828: 0.00% complete
+# 829: 0.00% complete
+# 830: 0.00% complete
+# 831: 0.00% complete
+# 832: 0.00% complete
+# 833: 0.00% complete
+# 834: 0.00% complete
+# 835: 0.00% complete
+# 836: 0.00% complete
+# 837: 0.00% complete
+# 838: 0.00% complete
+# 839: 0.00% complete
+# 840: 0.00% complete
+# 841: 0.00% complete
+# 842: 0.00% complete
+# 843: 0.00% complete
+# 844: 0.00% complete
+# 845: 0.00% complete
+# 846: 0.00% complete
+# 847: 0.00% complete
+# 848: 0.00% complete
+# 849: 0.00% complete
+# 850: 0.00% complete
+# 851: 0.00% complete
+# 852: 0.00% complete
+# 853: 0.00% complete
+# 854: 0.00% complete
+# 855: 0.00% complete
+# 856: 0.00% complete
+# 857: 0.00% complete
+# 858: 0.00% complete
+# 859: 0.00% complete
+# 860: 0.00% complete
+# 861: 0.00% complete
+# 862: 0.00% complete
+# 863: 0.00% complete
+# 864: 0.00% complete
+# 865: 0.00% complete
+# 866: 0.00% complete
+# 867: 0.00% complete
+# 868: 0.00% complete
+# 869: 0.00% complete
+# 870: 0.00% complete
+# 871: 0.00% complete
+# 872: 0.00% complete
+# 873: 0.00% complete
+# 874: 0.00% complete
+# 875: 0.00% complete
+# 876: 0.00% complete
+# 877: 0.00% complete
+# 878: 0.00% complete
+# 879: 0.00% complete
+# 880: 0.00% complete
+# 881: 0.00% complete
+# 882: 0.00% complete
+# 883: 0.00% complete
+# 884: 0.00% complete
+# 885: 0.00% complete
+# 886: 0.00% complete
+# 887: 0.00% complete
+# 888: 0.00% complete
+# 889: 0.00% complete
+# 890: 0.00% complete
+# 891: 0.00% complete
+# 892: 0.00% complete
+# 893: 0.00% complete
+# 894: 0.00% complete
+# 895: 0.00% complete
+# 896: 0.00% complete
+# 897: 0.00% complete
+# 898: 0.00% complete
+# 899: 0.00% complete
+# 900: 0.00% complete
+# 901: 0.00% complete
+# 902: 0.00% complete
+# 903: 0.00% complete
+# 904: 0.00% complete
+# 905: 0.00% complete
+# 906: 0.00% complete
+# 907: 0.00% complete
+# 908: 0.00% complete
+# 909: 0.00% complete
+# 910: 0.00% complete
+# 911: 0.00% complete
+# 912: 0.00% complete
+# 913: 0.00% complete
+# 914: 0.00% complete
+# 915: 0.00% complete
+# 916: 0.00% complete
+# 917: 0.00% complete
+# 918: 0.00% complete
+# 919: 0.00% complete
+# 920: 0.00% complete
+# 921: 0.00% complete
+# 922: 0.00% complete
+# 923: 0.00% complete
+# 924: 0.00% complete
+# 925: 0.00% complete
+# 926: 0.00% complete
+# 927: 0.00% complete
+# 928: 0.00% complete
+# 929: 0.00% complete
+# 930: 0.00% complete
+# 931: 0.00% complete
+# 932: 0.00% complete
+# 933: 0.00% complete
+# 934: 0.00% complete
+# 935: 0.00% complete
+# 936: 0.00% complete
+# 937: 0.00% complete
+# 938: 0.00% complete
+# 939: 0.00% complete
+# 940: 0.00% complete
+# 941: 0.00% complete
+# 942: 0.00% complete
+# 943: 0.00% complete
+# 944: 0.00% complete
+# 945: 0.00% complete
+# 946: 0.00% complete
+# 947: 0.00% complete
+# 948: 0.00% complete
+# 949: 0.00% complete
+# 950: 0.00% complete
+# 951: 0.00% complete
+# 952: 0.00% complete
+# 953: 0.00% complete
+# 954: 0.00% complete
+# 955: 0.00% complete
+# 956: 0.00% complete
+# 957: 0.00% complete
+# 958: 0.00% complete
+# 959: 0.00% complete
+# 960: 0.00% complete
+# 961: 0.00% complete
+# 962: 0.00% complete
+# 963: 0.00% complete
+# 964: 0.00% complete
+# 965: 0.00% complete
+# 966: 0.00% complete
+# 1348: 5.00% complete
+# 1633: 10.00% complete
+# 1915: 15.00% complete
+# 1916: 15.00% complete
+# 1917: 15.00% complete
+# 1918: 15.00% complete
+# 1919: 15.00% complete
+# 1920: 15.00% complete
+# 2138: 20.00% complete
+# 2427: 25.00% complete
+# 2428: 25.00% complete
+# 2429: 25.00% complete
+# 2430: 25.00% complete
+# 2431: 25.00% complete
+# 2432: 25.00% complete
+# 2433: 25.00% complete
+# 2935: 40.00% complete
+# 2936: 40.00% complete
+# 3078: 45.00% complete
+# 3079: 45.00% complete
+# 3268: 50.00% complete
+# 3269: 50.00% complete
+# 3447: 55.00% complete
+# 3448: 55.00% complete
+# 3449: 55.00% complete
+# 3600: 60.00% complete
+# 3761: 65.00% complete
+# 3762: 65.00% complete
+# 3904: 70.00% complete
+# 3905: 70.00% complete
+# 3906: 70.00% complete
+# 4078: 75.00% complete
+# 4079: 75.00% complete
+# 4080: 75.00% complete
+# 4222: 80.00% complete
+# 4368: 85.00% complete
+# 4522: 90.00% complete
+# 4523: 90.00% complete
+# 4684: 95.00% complete
+# 4685: 95.00% complete
+# 4686: 95.00% complete
+# 4687: 95.00% complete
+# 4688: 95.00% complete
+# 4689: 95.00% complete
+# 4690: 95.00% complete
+# 4691: 95.00% complete
+# ** Simulation End **
+# 
+# ***********************************************************************************
+# -- Channel Latency = 0
+# ***********************************************************************************
+# -- Packet Length   = 5
+# -- Average Latency = 40.98 (cycles)
+# -- Min. Latency    = 13, Max. Latency = 136
+# -- Average no. of hops taken by packet = 4.01 hops (min=3, max=6)
+# ***********************************************************************************
+# 
+# 
+# Average Latencies for packets rec'd at nodes [x,y] and (no. of packets received)
+# 0.00 (0)	43.57 (456)	18.87 (92)	0.00 (0)	
+# 118.53 (85)	0.00 (0)	22.57 (102)	0.00 (0)	
+# 0.00 (0)	0.00 (0)	0.00 (0)	26.31 (266)	
+# 0.00 (0)	0.00 (0)	0.00 (0)	0.00 (0)	
+# 
+# Flits/cycle sent at each node:
+# 0.68	0.00	0.00	0.00	
+# 0.59	0.20	0.82	0.63	
+# 0.00	0.00	0.00	0.00	
+# 0.00	0.00	0.00	0.00	
+# 
+# Flits/cycle received at each node: (should approx. injection rate)
+# 0.00	0.59	0.21	0.00	
+# 0.18	0.00	0.21	0.00	
+# 0.00	0.00	0.00	0.39	
+# 0.00	0.00	0.00	0.00	
+# 
+# Latencies for packet flows (in clock cycles)
+# ----------------------------------------------------------
+# (0, 1) -> (1, 0): min = 13;   av = 16;   max = 30;
+# ----------------------------------------------------------
+# (2, 1) -> (1, 0): min = 55;   av = 108;   max = 136;
+# ----------------------------------------------------------
+# (0, 1) -> (2, 0): min = 15;   av = 18;   max = 34;
+# ----------------------------------------------------------
+# (2, 1) -> (0, 1): min = 73;   av = 117;   max = 136;
+# ----------------------------------------------------------
+# (0, 0) -> (2, 1): min = 15;   av = 22;   max = 47;
+# ----------------------------------------------------------
+# (0, 0) -> (3, 2): min = 19;   av = 26;   max = 53;
+# ----------------------------------------------------------
+# 
+# 
+# Distribution of packet latencies: 
+# Latency : Frequency (as percentage of total)
+# -------------------
+# 0 0.00
+# 1 0.00
+# 2 0.00
+# 3 0.00
+# 4 0.00
+# 5 0.00
+# 6 0.00
+# 7 0.00
+# 8 0.00
+# 9 0.00
+# 10 0.00
+# 11 0.00
+# 12 0.00
+# 13 9.30
+# 14 5.20
+# 15 8.40
+# 16 5.40
+# 17 3.90
+# 18 3.40
+# 19 7.70
+# 20 5.40
+# 21 4.10
+# 22 3.60
+# 23 3.20
+# 24 2.90
+# 25 2.20
+# 26 1.20
+# 27 1.10
+# 28 1.60
+# 29 0.40
+# 30 1.00
+# 31 0.80
+# 32 0.40
+# 33 1.00
+# 34 0.70
+# 35 0.60
+# 36 0.70
+# 37 0.30
+# 38 0.70
+# 39 0.20
+# 40 0.40
+# 41 0.60
+# 42 0.10
+# 43 0.50
+# 44 0.10
+# 45 0.10
+# 46 0.30
+# 47 0.40
+# 48 0.20
+# 49 0.20
+# 50 0.00
+# 51 0.00
+# 52 0.10
+# 53 0.10
+# 54 0.00
+# 55 0.10
+# 56 0.00
+# 57 0.10
+# 58 0.00
+# 59 0.00
+# 60 0.10
+# 61 0.00
+# 62 0.00
+# 63 0.10
+# 64 0.00
+# 65 0.00
+# 66 0.10
+# 67 0.10
+# 68 0.10
+# 69 0.00
+# 70 0.00
+# 71 0.20
+# 72 0.20
+# 73 0.20
+# 74 0.00
+# 75 0.10
+# 76 0.20
+# 77 0.10
+# 78 0.40
+# 79 0.50
+# 80 0.20
+# 81 0.20
+# 82 0.20
+# 83 0.20
+# 84 0.40
+# 85 0.20
+# 86 0.40
+# 87 0.20
+# 88 0.10
+# 89 0.10
+# 90 0.10
+# 91 0.30
+# 92 0.10
+# 93 0.30
+# 94 0.00
+# 95 0.20
+# 96 0.00
+# 97 0.20
+# 98 0.20
+# 99 0.10
+# 100+ 15.80
+# ** Note: $finish    : G:/#Ucheba/#Disser/toGitHub/LAG_sv_sim_predef_traffic_predef_links_num/lib/LAG_test_random.v(286)
+#    Time: 48535 ns  Iteration: 2  Instance: /LAG_test_random
